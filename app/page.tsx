@@ -160,7 +160,7 @@ export default function HomePage() {
                   <li>• Contact lenses</li>
                   <li>• Vision therapy</li>
                 </ul>
-                <Link href="/search?q=&category=opticians">
+                <Link href="/optician">
                   <Button
                     variant="outline"
                     className="w-full bg-transparent hover:bg-blue-50 hover:text-blue-600 hover:border-blue-600"
@@ -187,7 +187,7 @@ export default function HomePage() {
                   <li>• Orthodontics</li>
                   <li>• Emergency dental care</li>
                 </ul>
-                <Link href="/search?q=&category=dentists">
+                <Link href="/dentist">
                   <Button
                     variant="outline"
                     className="w-full bg-transparent hover:bg-blue-50 hover:text-blue-600 hover:border-blue-600"
@@ -214,7 +214,7 @@ export default function HomePage() {
                   <li>• Group classes</li>
                   <li>• Nutrition guidance</li>
                 </ul>
-                <Link href="/search?q=&category=gyms">
+                <Link href="/gym">
                   <Button
                     variant="outline"
                     className="w-full bg-transparent hover:bg-blue-50 hover:text-blue-600 hover:border-blue-600"
@@ -241,7 +241,7 @@ export default function HomePage() {
                   <li>• Dermatology services</li>
                   <li>• Cosmetic procedures</li>
                 </ul>
-                <Link href="/search?q=&category=skincare">
+                <Link href="/skincare">
                   <Button
                     variant="outline"
                     className="w-full bg-transparent hover:bg-blue-50 hover:text-blue-600 hover:border-blue-600"

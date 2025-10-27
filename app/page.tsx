@@ -53,16 +53,17 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto text-center">
-          <Badge variant="secondary" className="mb-4 bg-blue-100 text-blue-800">
+      <section className="py-20 px-4 md:py-32 relative bg-cover bg-center bg-no-repeat bg-fixed" style={{backgroundImage: 'url(/header-bg.jpeg)'}}>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/40"></div>
+        <div className="container mx-auto text-center relative z-10">
+          <Badge variant="secondary" className="mb-4 bg-white/20 backdrop-blur-sm text-white border-white/30">
             🏥 Blantyre's Premier Health Directory
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
             Your Complete
-            <span className="text-blue-600"> Health Hub</span>
+            <span className="text-blue-300"> Health Hub</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-3xl mx-auto drop-shadow-md">
             Find and connect with verified healthcare providers instantly through our website. Our platform gives you
             direct access to trusted professionals across pharmacy, dental, optical, and skincare services.
           </p>
@@ -88,7 +89,7 @@ export default function HomePage() {
             </form>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
+          <div className="flex flex-wrap justify-center gap-4 text-sm text-white/90">
             <span className="flex items-center">
               <MapPin className="h-4 w-4 mr-1" /> Blantyre, Malawi
             </span>
@@ -103,8 +104,9 @@ export default function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
+      <section id="services" className="py-20 px-4 md:py-32 bg-white relative bg-cover bg-center bg-no-repeat transition-all duration-700" style={{backgroundImage: 'url(/pharmacy-bg.jpeg)'}}>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/93 to-white/90"></div>
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Health Services Directory</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">

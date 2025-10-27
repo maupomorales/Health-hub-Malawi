@@ -133,7 +133,7 @@ export default function HomePage() {
                   <li>• Medical supplies</li>
                   <li>• Emergency services</li>
                 </ul>
-                <Link href="/search?q=&category=pharmacies">
+                <Link href="/pharmacy">
                   <Button
                     variant="outline"
                     className="w-full bg-transparent hover:bg-blue-50 hover:text-blue-600 hover:border-blue-600"
